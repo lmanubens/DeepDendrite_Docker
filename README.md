@@ -3,7 +3,7 @@
 Clone the repository with submodules:
 
 ```
-git clone --recurse-submodules git://github.com/lmanubens/DeepDendrite_Docker
+git clone --recurse-submodules https://github.com/lmanubens/DeepDendrite_Docker 
 ```
 
 Install Nvidia Container Toolkit for GPU Use wtih Docker
