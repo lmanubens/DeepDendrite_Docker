@@ -25,7 +25,7 @@ docker compose up
 
 Run container with GPU flag  
 ```
-docker run -it --rm --gpus all DeepDendrite-deepd bash
+docker run -it --rm --gpus all deepdendrite_docker-deepd bash
 ```
 
 Others:
