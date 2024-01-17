@@ -1,0 +1,13 @@
+services:
+  deepd:
+    build: .
+    volumes:
+      - .:/home
+    #command: nvidia-smi
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
