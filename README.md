@@ -28,8 +28,11 @@ Run container with GPU flag
 docker run -it --rm --gpus all DeepDendrite-deepd bash
 ```
 
-#  https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/23.9.1/getting-started.html#operator-install-guide
-# docker build --pull -t \
-#     --build-arg DRIVER_VERSION=455.28 \
-#     nvidia/driver:455.28-ubuntu20.04 \
-#     --file Dockerfile .
+Others:
+https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/23.9.1/getting-started.html#operator-install-guide
+```
+ docker build --pull -t \
+     --build-arg DRIVER_VERSION=455.28 \
+     nvidia/driver:455.28-ubuntu20.04 \
+     --file Dockerfile .
+```
