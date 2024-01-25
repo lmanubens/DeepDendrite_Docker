@@ -17,6 +17,7 @@ sudo apt-get install -y nvidia-container-toolkit
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 ```
+See also: https://ubuntu.com/blog/getting-started-with-cuda-on-ubuntu-on-wsl-2 
 
 Build the container
 ```
